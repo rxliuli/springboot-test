@@ -1,0 +1,6 @@
+spring:
+  datasource:
+    driver-class-name: org.h2.Driver
+    platform: h2
+    schema: classpath:db/db_schema.sql
+    data: classpath:db/db_data.sql
